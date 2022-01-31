@@ -10,7 +10,7 @@ const four = require('./pics/four.png')
 function MySection() {
   return (
     <section>
-      <h1>Our History</h1>
+      <h1 className="heading">Our History</h1>
 
       <div className="mainWrap">
         <Block
