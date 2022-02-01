@@ -2,10 +2,7 @@ import React from 'react';
 import Block from './Block';
 import './HalfSection.sass'
 
-const one = require('./pics/one.png');
-const two = require('./pics/two.png');
-const three = require('./pics/three.png');
-const four = require('./pics/four.png')
+
 
 function HalfSection(props: any) {
   return (
@@ -18,14 +15,15 @@ function HalfSection(props: any) {
           class={props.blockNumFirst}
           heading={props.headingFirst}
           text={props.textFirst}
-          src={one}/>
+          src={props.firstsrc}/>
         <Block
+          src={props.secondsrc}
           classNumberWrap={props.classNumberWrap}
           class={props.blockNumSec}
           greyLine={props.greyLine}
           line={'firstLine'}
           heading={props.headingSec}
-          text={props.textSec} src={three}/>
+          text={props.textSec} />
       </div>
     </section>
   );
