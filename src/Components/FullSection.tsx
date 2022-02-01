@@ -23,9 +23,9 @@ function FullSection() {
         <img className="union" alt="line" src={union}/>
         <HalfSection
 
-          header={'April 2021'} header2={'October 2021'}
-          text={'Creaticles is founded with a team of four co-founders to launch the first custom NFT request platform'}
-          text2={'Creaticles closes their first round of investment prior to their selection as a CoinList Seed candidate'}
+          header={'October 2021'} header2={'April 2021'}
+          text={'Creaticles closes their first round of investment prior to their selection as a CoinList Seed candidate'}
+          text2={'Creaticles is founded with a team of four co-founders to launch the first custom NFT request platform'}
           src={four} src2={two} stylesForLine={'revLine'} numberSt={'reverse'} className={'rowReverse'}/>
       </div>
     </section>
