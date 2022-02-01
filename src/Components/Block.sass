@@ -1,57 +1,75 @@
-.greyLine
+.upperGreyLine, .bottomGreyLine
   width: 78.32px
-  height: 0px
-  left: 145.45px
-  top: 311.58px
-  border: 2.09784px solid #9C9C9C
+  height: 2.1px
   transform: rotate(-90deg)
+  background-color: #9C9C9C
 
-.rectangle
-  border-radius: 13.9856px 0px 0px 13.9856px
-  background-color: yellowgreen
-  width: 291px
-  height: 27px
+.upperGreyLine
+  margin-top: -30px
+.thirdBlock
+  margin-right: -100px
+.textWrap
+  margin: 0px 90px
 
-.firstBlock, .thirdBlock, .secondBlock,.fourthBlock
-  width: 291px
+.numberWrap
+  height: 269px
 
-
-.numberWrap,.textWrap
-  height: 359px
-
+.fourthBlock, .secondBlock
+  display: flex
+  flex-direction: row-reverse
+  justify-content: space-between
+  align-items: center
 
 .firstBlock, .thirdBlock
   display: flex
-  flex-direction: column
-  justify-content: center
+  flex-direction: row
+  justify-content: space-between
   align-items: center
   .numberWrap
-   display: flex
-   flex-direction: column
-   align-items: center
-
+    display: flex
+    flex-direction: column
+    align-items: center
   .number
     margin-bottom: 80px
 
-.rect
+.firstLine, .secondLine, .thirdLine, .fourthLine
   width: inherit
   height: 27px
   background-color: #C1CDE3
-.secondBlock, .fourthBlock
-  display: flex
-  flex-direction: column-reverse
-  justify-content: center
-  align-items: center
-  .numberWrap
+  position: fixed
+
+  .firstNumberWrap
     display: flex
     flex-direction: column-reverse
     align-items: center
 
-  .number
-    margin-top: 80px
+.number
+  margin-top: 30px
 
 .textWrap
   text-align: center
   color: #FFFFFF
   width: 212px
+
+.innerTextWrap
+  text-align: center
+
+.innerHeading
+  font-size: 22px
+  font-family: Montserrat
+  font-style: normal
+  font-weight: 800
+  line-height: 38px
+  letter-spacing: 0px
+  text-align: center
+
+.text
+  font-family: Montserrat
+  font-size: 14px
+  font-style: normal
+  font-weight: 300
+  line-height: 18px
+  letter-spacing: 0px
+  text-align: center
+
 

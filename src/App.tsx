@@ -1,10 +1,11 @@
 import React from 'react';
-import MySection from './Components/MySection';
+
+import FullSection from './Components/FullSection';
 
 function App() {
   return (
     <div className="App">
-      <MySection/>
+      <FullSection/>
     </div>
   );
 }
