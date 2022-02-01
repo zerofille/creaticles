@@ -4,7 +4,7 @@ import './Block.sass'
 function Block(props: any) {
   return (
     <div className={props.class}>
-      <div className="numberWrap">
+      <div className={props.classNumberWrap}>
         <img src={props.src} alt="number" className="number"/>
         <div className={props.greyLine}/>
       </div>

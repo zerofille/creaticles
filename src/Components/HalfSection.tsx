@@ -7,11 +7,12 @@ const two = require('./pics/two.png');
 const three = require('./pics/three.png');
 const four = require('./pics/four.png')
 
-function HalfSection(props:any) {
+function HalfSection(props: any) {
   return (
     <section>
       <div className="mainWrap">
         <Block
+          classNumberWrap={props.classNumberWrap}
           greyLine={props.greyLine}
           line={'firstLine'}
           class={props.blockNumFirst}
@@ -19,6 +20,7 @@ function HalfSection(props:any) {
           text={props.textFirst}
           src={one}/>
         <Block
+          classNumberWrap={props.classNumberWrap}
           class={props.blockNumSec}
           greyLine={props.greyLine}
           line={'firstLine'}
