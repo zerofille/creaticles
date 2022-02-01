@@ -13,30 +13,20 @@ function FullSection() {
     <section>
       <h1 className="heading">Our <span className={'span'}>History</span></h1>
       <div className={'sectionWrap'}>
-        <HalfSection
-          classNumberWrap={'firstNumberWrap'}
-          headingFirst={'August 2021'}
-          headingSec={'TBD 2021'}
-          firstsrc={one}
-          secondsrc={three}
-          textWrapFirst={"innerTextWrap"}
-          textWrapSec={"innerTextWrapSecond"}
-          greyLine={'upperGreyLine'}
-          textFirst={'Creaticles testnet launches for feedback and discovery for thousands of new users'}
-          textSec={'Official Mainnet Launch!'} blockNumFirst={'firstBlock'}
-          blockNumSec={'thirdBlock'}/>
+        <HalfSection header={'August 2021'} header2={'TBD 2021'}
+                     headerStyle={'headerStyle'}
+                     textWrapStyle={'textWrapStyle'}
+                     text={'Creaticles testnet launches for feedback and discovery for thousands of new users'}
+                     text2={'Official Mainnet Launch!'}
+                     src={one} src2={three} stylesForLine={'nonRevLine'}
+                     numberSt={'nonReverse'} className={'row'}/>
         <img className="union" alt="line" src={union}/>
         <HalfSection
-          classNumberWrap={'secNumberWrap'}
-          firstsrc={two}
-          secondsrc={four}
-          textWrapFirst={"innerTextWrap"}
-          textWrapSec={"innerTextWrap"}
-          headingFirst={'April 2021'} headingSec={'October 2021'}
-          greyLine={'bottomGreyLine'}
-          textFirst={'Creaticles is founded with a team of four co-founders to launch the first custom NFT request platform'}
-          textSec={'Creaticles closes their first round of investment prior to their selection as a CoinList Seed candidate'}
-          blockNumFirst={'secondBlock'} blockNumSec={'fourthBlock'}/>
+
+          header={'April 2021'} header2={'October 2021'}
+          text={'Creaticles is founded with a team of four co-founders to launch the first custom NFT request platform'}
+          text2={'Creaticles closes their first round of investment prior to their selection as a CoinList Seed candidate'}
+          src={four} src2={two} stylesForLine={'revLine'} numberSt={'reverse'} className={'rowReverse'}/>
       </div>
     </section>
   );
