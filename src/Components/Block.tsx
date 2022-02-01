@@ -9,7 +9,7 @@ function Block(props: any) {
         <div className={props.greyLine}/>
       </div>
       <div className="textWrap">
-        <div className="innerTextWrap">
+        <div className={props.textWrap}>
           <h1 className="innerHeading">{props.heading}</h1>
           <p className="text">{props.text}</p>
         </div>

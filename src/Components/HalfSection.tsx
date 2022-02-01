@@ -3,7 +3,6 @@ import Block from './Block';
 import './HalfSection.sass'
 
 
-
 function HalfSection(props: any) {
   return (
     <section>
@@ -15,15 +14,18 @@ function HalfSection(props: any) {
           class={props.blockNumFirst}
           heading={props.headingFirst}
           text={props.textFirst}
+          textWrap={props.textWrapFirst}
           src={props.firstsrc}/>
         <Block
           src={props.secondsrc}
+          textWrap={props.textWrapSec}
           classNumberWrap={props.classNumberWrap}
           class={props.blockNumSec}
           greyLine={props.greyLine}
           line={'firstLine'}
+          innertextWrap={props.textWrap}
           heading={props.headingSec}
-          text={props.textSec} />
+          text={props.textSec}/>
       </div>
     </section>
   );

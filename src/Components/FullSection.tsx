@@ -19,6 +19,8 @@ function FullSection() {
           headingSec={'TBD 2021'}
           firstsrc={one}
           secondsrc={three}
+          textWrapFirst={"innerTextWrap"}
+          textWrapSec={"innerTextWrapSecond"}
           greyLine={'upperGreyLine'}
           textFirst={'Creaticles testnet launches for feedback and discovery for thousands of new users'}
           textSec={'Official Mainnet Launch!'} blockNumFirst={'firstBlock'}
@@ -28,6 +30,8 @@ function FullSection() {
           classNumberWrap={'secNumberWrap'}
           firstsrc={two}
           secondsrc={four}
+          textWrapFirst={"innerTextWrap"}
+          textWrapSec={"innerTextWrap"}
           headingFirst={'April 2021'} headingSec={'October 2021'}
           greyLine={'bottomGreyLine'}
           textFirst={'Creaticles is founded with a team of four co-founders to launch the first custom NFT request platform'}
