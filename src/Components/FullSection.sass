@@ -30,14 +30,23 @@
 
 @media (max-width: 685px)
   .union
-   width: 500px
+    width: 500px
 
 @media (max-width: 520px)
   .sectionWrap
-   transform: rotate(-90deg)
-   margin-top: 280px
+    transform: rotate(-90deg)
+    margin-top: 200px
+    max-height: 400px
   .union
     width: 741px
+    margin: 20px 0px
+    transform: rotate(-180deg)
   .sectionWrap
     flex-direction: column-reverse
 
+@media (max-width: 415px)
+  .union
+    width: 741px
+    margin: 0px 0px
+  .sectionWrap
+    max-height: 400px

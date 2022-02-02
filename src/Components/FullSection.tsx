@@ -13,7 +13,9 @@ function FullSection() {
     <section>
       <h1 className="heading">Our <span className={'span'}>History</span></h1>
       <div className={'sectionWrap'}>
-        <HalfSection header={'August 2021'} header2={'TBD 2021'}
+        <HalfSection
+          textAlign={'rightAlign'}
+          header={'August 2021'} header2={'TBD 2021'}
                      headerStyle={'headerStyle'}
                      textWrapStyle={'textWrapStyle'}
                      text={'Creaticles testnet launches for feedback and discovery for thousands of new users'}
@@ -22,7 +24,7 @@ function FullSection() {
                      numberSt={'nonReverse'} className={'row'}/>
         <img className="union" alt="line" src={union}/>
         <HalfSection
-
+          textAlign={'leftAlign'}
           header={'October 2021'} header2={'April 2021'}
           text={'Creaticles closes their first round of investment prior to their selection as a CoinList Seed candidate'}
           text2={'Creaticles is founded with a team of four co-founders to launch the first custom NFT request platform'}

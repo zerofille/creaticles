@@ -59,3 +59,11 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
+@media (max-width: 520px){
+    .html{
+        background-image: url("./Creaticles Visual Design About Stage 2 Dark Mobile.png");
+        background-position: 0% 15%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
