@@ -1,5 +1,4 @@
 
-
 .reverse
   display: flex
   flex-direction: column-reverse
@@ -12,7 +11,7 @@
   align-items: center
   width: 291px
 
-.revLine,.nonRevLine
+.revLine, .nonRevLine
   background-color: #9C9C9C
   width: 78.32px
   height: 2.1px
@@ -20,6 +19,7 @@
 
 .revLine
   margin-bottom: 55px
+
 .nonRevLine
   margin-top: 55px
 
@@ -28,7 +28,7 @@
     width: 80px
   .reverse, .nonReverse
     width: 225px
-  .revLine,.nonRevLine
+  .revLine, .nonRevLine
     width: 59px
   .revLine
     margin-bottom: 40px
@@ -41,7 +41,7 @@
     width: 60px
   .reverse, .nonReverse
     width: 162.5px
-  .revLine,.nonRevLine
+  .revLine, .nonRevLine
     width: 45px
   .revLine
     margin-bottom: 30px
@@ -53,9 +53,28 @@
     width: 45px
   .reverse, .nonReverse
     width: 125px
-  .revLine,.nonRevLine
+  .revLine, .nonRevLine
     width: 30px
   .revLine
     margin-bottom: 25px
   .nonRevLine
     margin-top: 25px
+
+@media (max-width: 520px)
+  .reverse, .nonReverse
+    transform: rotate(-270deg)
+  .nonReverse
+    flex-direction: row-reverse
+  .nonRevLine
+    transform: rotate(-180deg)
+    margin: 10px 10px
+  .reverse
+    flex-direction: row
+  .revLine
+    transform: rotate(-180deg)
+    margin: 10px 10px
+  .number
+    width: 76.4px
+  .revLine, .nonRevLine
+    width: 560.19px
+
